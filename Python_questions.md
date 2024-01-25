@@ -1,6 +1,6 @@
 **Question: 1**
 
-Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
+Given an array nums. define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
 
 Return the running sum of nums.
 ```
@@ -20,8 +20,7 @@ Output: [3,4,6,16,17]
 ```
 **Question: 2**
 
-You are given an m x n integer grid accounts where accounts[i][j] is the amount of money the i​​​​​​​​​​​th​​​​ customer has in the j​​​​​​​​​​​th​​​​ bank. Return the wealth that the richest customer has.
-
+Given an m x n integer grid accounts where accounts[i][j] is the amount of money the ith customer has in the jth bank. Return the wealth that the richest customer has.
 A customer's wealth is the amount of money they have in all their bank accounts. The richest customer is the customer that has the maximum wealth.
 ```
 Example 1:
@@ -47,7 +46,7 @@ Output: 17
 ```
 **Question: 3**
 
-You are given an integer array nums. You need to create a 2D array from nums satisfying the following conditions:
+Given an integer array nums. You need to create a 2D array from nums satisfying the following conditions:
 
 The 2D array should contain only the elements of the array nums.
 Each row in the 2D array contains distinct integers.
@@ -73,9 +72,9 @@ Explanation: All elements of the array are distinct, so we can keep all of them 
 ```
 **Question: 4**
 
-You are given a 0-indexed integer array nums of even length consisting of an equal number of positive and negative integers.
+Given a 0-indexed integer array nums of even length consisting of an equal number of positive and negative integers.
 
-You should rearrange the elements of nums such that the modified array follows the given conditions:
+You are required to rearrange the elements of nums such that the modified array follows the given conditions:
 
 Every consecutive pair of integers have opposite signs.
 For all integers with the same sign, the order in which they were present in nums is preserved.
