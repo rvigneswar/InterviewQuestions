@@ -19,6 +19,7 @@ Input: nums = [3,1,2,10,1]
 Output: [3,4,6,16,17]
 ```
 **Question: 2**
+
 You are given an m x n integer grid accounts where accounts[i][j] is the amount of money the i​​​​​​​​​​​th​​​​ customer has in the j​​​​​​​​​​​th​​​​ bank. Return the wealth that the richest customer has.
 
 A customer's wealth is the amount of money they have in all their bank accounts. The richest customer is the customer that has the maximum wealth.
@@ -45,6 +46,7 @@ Input: accounts = [[2,8,7],[7,1,3],[1,9,5]]
 Output: 17
 ```
 **Question: 3**
+
 You are given an integer array nums. You need to create a 2D array from nums satisfying the following conditions:
 
 The 2D array should contain only the elements of the array nums.
@@ -70,6 +72,7 @@ Output: [[4,3,2,1]]
 Explanation: All elements of the array are distinct, so we can keep all of them in the first row of the 2D array.
 ```
 **Question: 4**
+
 You are given a 0-indexed integer array nums of even length consisting of an equal number of positive and negative integers.
 
 You should rearrange the elements of nums such that the modified array follows the given conditions:
@@ -95,6 +98,7 @@ Explanation:
 So nums is rearranged to [1,-1].
 ```
 **Question: 5**
+
 Given a 0-indexed string s, permute s to get a new string t such that:
 
 All consonants remain in their original places. More formally, if there is an index i with 0 <= i < s.length such that s[i] is a consonant, then t[i] = s[i].
