@@ -20,7 +20,8 @@
               });
   ```
 
-4. ```javascript
+4. By using filter and map get the passenger names who are VegetarianorVegan
+   ```javascript
       
               const passengers = [
                 {
@@ -50,4 +51,4 @@
               ];
 ```
 
-By using filter and map get the passenger names who are VegetarianorVegan
+
